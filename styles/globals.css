@@ -1,7 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #00AEEF;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -21,6 +25,180 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: rgb(255, 255, 255);
+  }
+  .label-font{
+    font-family: Bebas Neue, Sans-Serif;
+  }
+  .label{
+    font-family: Bebas Neue, Sans-Serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+  }
+  header{
+    position: absolute;
+    width: 100%;
+    height: 100px;;
+    right: 0px;
+    top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .blue--text{
+    color: hsl(196, 100%, 47%)
+  }
+  .white--text{
+    color: hsl(0, 0%, 100%)
+  }
+  nav > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+  }
+  nav > ul > li > a{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 #00AEEF;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  }
+  nav > ul > li > a:hover{
+    background-color: #00AEEF;
+    box-shadow: inset 200px 0 0 0 #ffff;
+  }
+  
+  h1{
+    font-weight: 400;
+    line-height: 133px;
+  }
+  .hero--section{
+    text-align: center;
+  }
+  .white--para{
+    color: #4b4b4b;
+    font-weight: 400;
+    line-height: 124.05%;
+
+  }
+  .tittle{
+    margin-bottom: 50px;
+  }
+  .para--font{
+    font-family: Oswald , Sans-Serif;
+  }
+  .web--suj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section{
+    padding-left: 14%;
+    padding-right: 14%;
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .blue-back{
+    background-color: #00AEEF;
+  }
+  .liquidBubble{
+    border-radius: 54% 46% 42% 58% / 60% 58% 52% 50%;
+    animation: wave 5s linear infinite;
+  }
+  @keyframes wave {
+    20%{
+      border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+    }
+    40%{
+      border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
+    }
+    60%{
+      border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+    }
+    80%{
+      border-radius: 50% 60% 32% 68% / 37% 32% 64% 62%;
+    }
+  }
+  .liquidBubbl--two{
+    border-radius: 39% 66% 32% 58% / 40% 68% 32% 67%;
+    animation: wave2 5s linear infinite;
+    
+  }
+  @keyframes wave2 {
+    20%{
+      border-radius: 70% 61% 35% 61% / 70% 44% 67% 37%;
+    }
+    40%{
+      border-radius: 65% 45% 63% 51% / 56% 41% 39% 64%;
+    }
+    60%{
+      border-radius: 75% 55% 49% 31% / 76% 61% 61% 44%;
+    }
+    80%{
+      border-radius: 60% 40% 57% 43% / 47% 42% 38% 53%;
+    }
+  }
+  .liquidBubbl--tree{
+    border-radius: 65% 40% 63% 51% / 56% 41% 79% 64%;
+    animation: wave2 5s linear infinite;
+  }
+  @keyframes wave3 {
+    20%{
+      border-radius: 45% 55% 49% 71% / 36% 61% 61% 64%;
+    }
+    40%{
+      border-radius: 49% 61% 45% 71% / 33% 44% 67% 67%;
+    }
+    60%{
+      border-radius: 60% 40% 57% 33% / 47% 72% 38% 33%;
+    }
+    80%{
+      border-radius: 45% 55% 49% 31% / 36% 61% 61% 44%;
+    }
+  }
+  svg path {
+    animation: wavepath 12s linear infinite;
+  }
+  @keyframes wavepath {
+    0%{
+      d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
+    }
+    25%{
+      d: path("M0,100,C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 300 L0 300")
+    }
+    50%{
+      d: path("M0,192,C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 300 L0 300")
+    }
+    75%{
+      d: path("M0,292,C220,292,440,100,660,100 C880,100,1100,292,1320,100 L1320 300 L0 300")
+    }
+    100%{
+      d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
+    }
+  }
+  .svg--circle{
+    animation: floating--circle 7s linear infinite;
+  }
+  back--white{
+    background-color: white;
+  }
+  .liquidButton{
+    
+  }
+  .foatonever{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   }
 }
