@@ -2,7 +2,7 @@ export default function Hero(){
     return(
         
         <section className="hero--section flex flex-col items-center justify-center"> 
-            <h1 className="label-font tittle blue--text pt-32 text-5xl">Media floats </h1>
+            <h1 className="label-font tittle blue--text pt-32 text-5xl drop-shadow-lg shadow-black">Media floats </h1>
             <p className="white--para para--font text-lg">Make a impact with your website <br/>
             by make your media float to your public</p>
             <p className="white--para para--font text-lg"> we deliver wesite on all categories such as: </p>

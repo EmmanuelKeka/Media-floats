@@ -38,7 +38,7 @@ a {
     line-height: 48px;
   }
   header{
-    position: absolute;
+  
     width: 100%;
     height: 100px;;
     right: 0px;
@@ -59,24 +59,20 @@ a {
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
     color: black;
   }
   nav > ul > li > a{
+    position: relative;
+    padding: 12px 30px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 9rem;
+    overflow: hidden;
+    border-radius: 40px;
+    height: 3rem;
     margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    box-shadow: inset 0 0 0 0 #00AEEF;
-    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
   }
-  nav > ul > li > a:hover{
-    background-color: #00AEEF;
-    box-shadow: inset 200px 0 0 0 #ffff;
-  }
-  
   h1{
     font-weight: 400;
     line-height: 133px;
@@ -193,12 +189,70 @@ a {
   back--white{
     background-color: white;
   }
-  .liquidButton{
-    
+
+  
+
+
+
+
+
+  span {
+    position: relative;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    z-index: 1;
+    padding-left: 15px;
+    padding-bottom: 15px;
   }
-  .foatonever{
-    position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+
+  a .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: white;
+    transition: .5s;
+  }
+  
+  a .liquid::after,
+  a .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #00AEEF;
+  }
+  
+  a .liquid::before {
+    
+    border-radius: 45%;
+    background: #00AEEF;
+    animation: animate 5s linear infinite;
+  }
+  
+  a .liquid::after {
+    
+    border-radius: 40%;
+    background: #00AEEF;
+    animation: animate 10s linear infinite;
+  }
+  
+  a:hover .liquid{
+    top: -120px;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+    }
   }
 }
