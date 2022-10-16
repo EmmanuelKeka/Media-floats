@@ -9,7 +9,7 @@ export default function Contact(){
                 <h1 className="label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">Contact</h1>
                 <div className=" mt- bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl lg:w-[12rem] lg:h-[12rem]">
                         <div className='pt-1'>
-                        <Image src="/emmalove.png" alt="emma"  height="300" width="300"/>
+                        <Image src="/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                 </div>
                 <form className="mb-8 max-w-4x w-full">

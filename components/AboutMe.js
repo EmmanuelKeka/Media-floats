@@ -10,7 +10,7 @@ export default function AboutMe(){
                 <div className=" flex flex-row justify-between flex-wrap text-5xl max-w-4x w-full lg:flex-col lg:items-center">
                     <div className="bg-white w-[14rem] h-[14rem] liquidBubble overflow-hidden m-[1rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
                         <div className='pt-1'>
-                        <Image src="/emmalove.png" alt="emma"  height="300" width="300" />
+                        <Image src="/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                     </div>
                     <div className="h-[16rem] w-[25rem] lg:h-[30rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
