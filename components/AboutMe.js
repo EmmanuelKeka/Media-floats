@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function AboutMe(){
     return(
         <div className=" flex flex-col" id="aboutMe">
@@ -8,7 +9,9 @@ export default function AboutMe(){
                 <h1 className="label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">About me</h1>
                 <div className=" flex flex-row justify-between flex-wrap text-5xl max-w-4x w-full lg:flex-col lg:items-center">
                     <div className="bg-white w-[14rem] h-[14rem] liquidBubble overflow-hidden m-[1rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
-                        <img src="/emmalove.png" alt="emma" className="pt-1"/>
+                        <div className='pt-1'>
+                        <Image src="/emmalove.png" alt="emma"  height="300" width="300" />
+                        </div>
                     </div>
                     <div className="h-[16rem] w-[25rem] lg:h-[30rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
                         <p className="para--font text-center">

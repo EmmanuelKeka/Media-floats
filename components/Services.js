@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Services(){
     return(
         <div className=" flex flex-col justify-center items-center" id="services">
@@ -17,7 +18,9 @@ export default function Services(){
                         </p>
                     </div>
                     <div className=" mt- blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[1rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
-                        <img src="/emmanuelService.png" alt="emma" className="pt-10"/>
+                        <div className='pt-6'>
+                        <Image src="/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
+                        </div>
                     </div>
 
                     <div className="h-[24rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[26rem]">
