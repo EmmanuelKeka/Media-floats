@@ -186,11 +186,17 @@ a {
   .svg--circle{
     animation: floating--circle 7s linear infinite;
   }
-  back--white{
+  .back--white{
     background-color: white;
   }
-
-  
+  .media--link:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  .media--link{
+    transition: transform .2s
+  }
 
 
 

@@ -7,10 +7,10 @@ export default function AboutMe(){
             <section className="blue-back text-center flex flex flex-col items-center">
                 <h1 className="label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">About me</h1>
                 <div className=" flex flex-row justify-between flex-wrap text-5xl max-w-4x w-full lg:flex-col lg:items-center">
-                    <div className="bg-white w-[14rem] h-[14rem] liquidBubble overflow-hidden m-[1rem] shadow-xl">
+                    <div className="bg-white w-[14rem] h-[14rem] liquidBubble overflow-hidden m-[1rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
                         <img src="/emmalove.png" alt="emma" className="pt-1"/>
                     </div>
-                    <div className="h-[16rem] w-[25rem] lg:h-[30rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem]">
+                    <div className="h-[16rem] w-[25rem] lg:h-[30rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
                         <p className="para--font text-center">
                             My name is Emmanuel Keka, I am a web developer located in Ireland, Dublin. 
                             I love anime, cars and everything that has to do with technology and science.

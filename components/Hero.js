@@ -8,22 +8,22 @@ export default function Hero(){
             <p className="white--para para--font text-lg"> we deliver wesite on all categories such as: </p>
             <div className="mt-[4rem] flex flex-row flex-wrap max-w-4x w-full justify-between lg:flex-col lg:items-center">
                 <div className="m-[1rem]">
-                <div className="web--suj blue-back liquidBubbl--two w-[14rem] h-[14rem] shadow-xl">
-                <img src="/music.png" alt="music"/>
+                <div className="web--suj blue-back liquidBubbl--two w-[14rem] h-[14rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
+                <img src="/music.png" alt="music" className=" w-[85%]"/>
                 </div>
                 <span className="white--para para--font">Music</span>
                 </div>
 
                 <div className="m-[1rem]">
-                <div className="web--suj blue-back liquidBubbl--tree w-[14rem] h-[14rem] shadow-xl">
-                <img src="/profolio.png" alt="music"/>
+                <div className="web--suj blue-back liquidBubbl--tree w-[14rem] h-[14rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
+                <img src="/profolio.png" alt="music" className=" w-[85%]"/>
                 </div>
                 <span className="white--para para--font">Profolio</span>
                 </div>
 
                 <div className="m-[1rem]">
-                <div className="web--suj blue-back liquidBubble w-[14rem] h-[14rem] shadow-xl">
-                <img src="/e-commerce.png" alt="music" className="pt-5"/>
+                <div className="web--suj blue-back liquidBubble w-[14rem] h-[14rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
+                <img src="/e-commerce.png" alt="music" className="pt-5 w-[85%]"/>
                 </div>
                 <span className="white--para para--font">E-commerce</span>
                 </div>

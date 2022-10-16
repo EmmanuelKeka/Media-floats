@@ -7,8 +7,6 @@ import AboutMe from '../components/AboutMe'
 import Services from '../components/Services'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
-import SideNav from '../components/sideNav'
-import react from 'react'
 export default function Home() {
 
   return (

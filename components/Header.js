@@ -1,3 +1,4 @@
+import {Link} from 'react-scroll'
 export default function Header(){
     return(
         <header className="blue-back">
@@ -5,28 +6,28 @@ export default function Header(){
             <nav className="lg:hidden">
                 <ul>
                     <li className="label-font">
-                        <a href="#aboutMe">
+                        <Link  to="aboutMe" spy={true} smooth={true} offset={200} duration={500}>
                         <span>About me</span>
                         <div className="liquid"></div>
-                        </a>
+                        </Link >
                     </li>
                     <li className="label-font">
-                        <a href="#">
+                        <Link  to="#" spy={true} smooth={true} offset={200} duration={500}>
                         <span>Profolio</span>
                         <div className="liquid"></div>
-                        </a>
+                        </Link >
                     </li>
                     <li className="label-font">
-                        <a href="#services">
+                        <Link to="services" spy={true} smooth={true} offset={200} duration={500}>
                         <span>Services</span>
                         <div className="liquid"></div>
-                        </a>
+                        </Link >
                     </li>
                     <li className="label-font">
-                        <a href="#contact">
+                        <Link  to="contact" spy={true} smooth={true} offset={200} duration={500}>
                         <span>Contact</span>
                         <div className="liquid"></div>
-                        </a>
+                        </Link >
                     </li>
                 </ul>
             </nav>

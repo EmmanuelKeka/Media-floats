@@ -6,7 +6,7 @@ export default function Contact(){
             </svg>
             <section className="blue-back text-center flex flex-col items-center">
                 <h1 className="label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">Contact</h1>
-                <div className=" mt- bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl">
+                <div className=" mt- bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl lg:w-[12rem] lg:h-[12rem]">
                         <img src="/EmmanuelContact.png" alt="emma" className="pt-1"/>
                 </div>
                 <form className="mb-8 max-w-4x w-full">
