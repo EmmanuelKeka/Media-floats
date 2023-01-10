@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -19,243 +20,281 @@ a {
 * {
   box-sizing: border-box;
 }
-html {
-    color-scheme: dark;
-  }
-  .label-font{
-    font-family: Bebas Neue, Sans-Serif;
-  }
-  .label{
-    font-family: Bebas Neue, Sans-Serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 48px;
-  }
-  header{
-  
-    width: 100%;
-    height: 100px;;
-    right: 0px;
-    top: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .blue--text{
-    color: hsl(196, 100%, 47%)
-  }
-  .white--text{
-    color: hsl(0, 0%, 100%)
-  }
-  nav > ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    color: black;
-  }
-  nav > ul > li > a{
-    position: relative;
-    padding: 12px 30px;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 9rem;
-    overflow: hidden;
-    border-radius: 40px;
-    height: 3rem;
-    margin-left: 20px;
-  }
-  h1{
-    font-weight: 400;
-    line-height: 133px;
-  }
-  .hero--section{
-    text-align: center;
-  }
-  .white--para{
-    color: #4b4b4b;
-    font-weight: 400;
-    line-height: 124.05%;
 
-  }
-  .tittle{
-    margin-bottom: 50px;
-  }
-  .para--font{
-    font-family: Oswald , Sans-Serif;
-  }
-  .web--suj{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  section{
-    padding-left: 14%;
-    padding-right: 14%;
-    width: 100%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-  }
-  .blue-back{
-    background-color: #00AEEF;
-  }
-  #__next {
+.label-font {
+  font-family: Bebas Neue, Sans-Serif;
+}
+
+.label {
+  font-family: Bebas Neue, Sans-Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+header {
+
+  width: 100%;
+  height: 100px;
+  ;
+  right: 0px;
+  top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blue--text {
+  color: hsl(196, 100%, 47%)
+}
+
+.white--text {
+  color: hsl(0, 0%, 100%)
+}
+
+nav>ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: black;
+}
+
+nav>ul>li>a {
+  position: relative;
+  padding: 12px 30px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 9rem;
+  overflow: hidden;
+  border-radius: 40px;
+  height: 3rem;
+  margin-left: 20px;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 133px;
+}
+
+.hero--section {
+  text-align: center;
+}
+
+.white--para {
+  color: #4b4b4b;
+  font-weight: 400;
+  line-height: 124.05%;
+
+}
+
+.tittle {
+  margin-bottom: 50px;
+}
+
+.para--font {
+  font-family: Oswald, Sans-Serif;
+}
+
+.web--suj {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-width: 100vh;
+  justify-content: center;
+  align-items: center;
 }
+
+section {
+  padding-left: 14%;
+  padding-right: 14%;
+  width: 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.blue-back {
+  background-color: #00AEEF;
+}
+
+.liquidBubble {
+  border-radius: 54% 46% 42% 58% / 60% 58% 52% 50%;
+  animation: wave 5s linear infinite;
+}
+
 @keyframes wave {
-  20%{      border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
-    }
-    40%{
-      border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
-    }
-    60%{
-      border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
-    }
-    80%{
-      border-radius: 50% 60% 32% 68% / 37% 32% 64% 62%;
-    }
+  20% {
+    border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
   }
-  .liquidBubbl--two{
-    display: block;
-    border-radius: 39% 66% 32% 58% / 40% 68% 32% 67%;
-    animation: wave2 5s linear infinite;
-    
+
+  40% {
+    border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
   }
-  @keyframes wave2 {
-    20%{
-      border-radius: 70% 61% 35% 61% / 70% 44% 67% 37%;
-    }
-    40%{
-      border-radius: 65% 45% 63% 51% / 56% 41% 39% 64%;
-    }
-    60%{
-      border-radius: 75% 55% 49% 31% / 76% 61% 61% 44%;
-    }
-    80%{
-      border-radius: 60% 40% 57% 43% / 47% 42% 38% 53%;
-    }
+
+  60% {
+    border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
   }
-  .liquidBubbl--tree{
-    display: block;
-    border-radius: 65% 40% 63% 51% / 56% 41% 79% 64%;
-    animation: wave2 5s linear infinite;
+
+  80% {
+    border-radius: 50% 60% 32% 68% / 37% 32% 64% 62%;
   }
-  @keyframes wave3 {
-    20%{
-      border-radius: 45% 55% 49% 71% / 36% 61% 61% 64%;
-    }
-    40%{
-      border-radius: 49% 61% 45% 71% / 33% 44% 67% 67%;
-    }
-    60%{
-      border-radius: 60% 40% 57% 33% / 47% 72% 38% 33%;
-    }
-    80%{
-      border-radius: 45% 55% 49% 31% / 36% 61% 61% 44%;
-    }
+}
+
+.liquidBubbl--two {
+  border-radius: 39% 66% 32% 58% / 40% 68% 32% 67%;
+  animation: wave2 5s linear infinite;
+
+}
+
+@keyframes wave2 {
+  20% {
+    border-radius: 70% 61% 35% 61% / 70% 44% 67% 37%;
   }
-  svg path {
-    animation: wavepath 12s linear infinite;
+
+  40% {
+    border-radius: 65% 45% 63% 51% / 56% 41% 39% 64%;
   }
-  @keyframes wavepath {
-    0%{
-      d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
-    }
-    25%{
-      d: path("M0,100,C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 300 L0 300")
-    }
-    50%{
-      d: path("M0,192,C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 300 L0 300")
-    }
-    75%{
-      d: path("M0,292,C220,292,440,100,660,100 C880,100,1100,292,1320,100 L1320 300 L0 300")
-    }
-    100%{
-      d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
-    }
+
+  60% {
+    border-radius: 75% 55% 49% 31% / 76% 61% 61% 44%;
   }
-  .svg--circle{
-    animation: floating--circle 7s linear infinite;
+
+  80% {
+    border-radius: 60% 40% 57% 43% / 47% 42% 38% 53%;
   }
-  .back--white{
-    background-color: white;
+}
+
+.liquidBubbl--tree {
+  border-radius: 65% 40% 63% 51% / 56% 41% 79% 64%;
+  animation: wave2 5s linear infinite;
+}
+
+@keyframes wave3 {
+  20% {
+    border-radius: 45% 55% 49% 71% / 36% 61% 61% 64%;
   }
-  .media--link:hover {
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2); 
+
+  40% {
+    border-radius: 49% 61% 45% 71% / 33% 44% 67% 67%;
   }
-  .media--link{
-    transition: transform .2s
+
+  60% {
+    border-radius: 60% 40% 57% 33% / 47% 72% 38% 33%;
   }
+
+  80% {
+    border-radius: 45% 55% 49% 31% / 36% 61% 61% 44%;
+  }
+}
+
+svg path {
+  animation: wavepath 12s linear infinite;
+}
+
+@keyframes wavepath {
+  0% {
+    d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
+  }
+
+  25% {
+    d: path("M0,100,C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 300 L0 300")
+  }
+
+  50% {
+    d: path("M0,192,C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 300 L0 300")
+  }
+
+  75% {
+    d: path("M0,292,C220,292,440,100,660,100 C880,100,1100,292,1320,100 L1320 300 L0 300")
+  }
+
+  100% {
+    d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
+  }
+}
+
+.svg--circle {
+  animation: floating--circle 7s linear infinite;
+}
+
+.back--white {
+  background-color: white;
+}
+
+.media--link:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.media--link {
+  transition: transform .2s
+}
 
 
 
 
 
-  span {
-    position: relative;
-    color: black;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    z-index: 1;
-    padding-left: 15px;
-    padding-bottom: 15px;
+span {
+  position: relative;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  z-index: 1;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+a .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: white;
+  transition: .5s;
+}
+
+a .liquid::after,
+a .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #00AEEF;
+}
+
+a .liquid::before {
+
+  border-radius: 45%;
+  background: #00AEEF;
+  animation: animate 5s linear infinite;
+}
+
+a .liquid::after {
+
+  border-radius: 40%;
+  background: #00AEEF;
+  animation: animate 10s linear infinite;
+}
+
+a:hover .liquid {
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
   }
 
-  a .liquid {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    background: white;
-    transition: .5s;
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
   }
-  
-  a .liquid::after,
-  a .liquid::before {
-    content: '';
-    width: 200%;
-    height: 200%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    background: #00AEEF;
-  }
-  
-  a .liquid::before {
-    
-    border-radius: 45%;
-    background: #00AEEF;
-    animation: animate 5s linear infinite;
-  }
-  
-  a .liquid::after {
-    
-    border-radius: 40%;
-    background: #00AEEF;
-    animation: animate 10s linear infinite;
-  }
-  
-  a:hover .liquid{
-    top: -120px;
-  }
-  
-  @keyframes animate {
-    0% {
-      transform: translate(-50%, -75%) rotate(0deg);
-    }
-    100% {
-      transform: translate(-50%, -75%) rotate(360deg);
-    }
-  }
+}
