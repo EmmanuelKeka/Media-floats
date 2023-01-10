@@ -110,7 +110,7 @@ a {
   }
   .liquidBubble{
     border-radius: 54% 46% 42% 58% / 60% 58% 52% 50%;
-    animation: wave 5s linear infinite;
+    -webkit-animation: wave 5s linear infinite;
   }
   @-webkit-keyframes wave {
     20%{
