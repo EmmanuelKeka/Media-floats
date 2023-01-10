@@ -109,6 +109,7 @@ a {
     background-color: #00AEEF;
   }
   .liquidBubble{
+    display: block;
     border-radius: 54% 46% 42% 58% / 60% 58% 52% 50%;
     animation: wave 5s linear infinite;
   }
@@ -127,6 +128,7 @@ a {
     }
   }
   .liquidBubbl--two{
+    display: block;
     border-radius: 39% 66% 32% 58% / 40% 68% 32% 67%;
     animation: wave2 5s linear infinite;
     
@@ -146,6 +148,7 @@ a {
     }
   }
   .liquidBubbl--tree{
+    display: block;
     border-radius: 65% 40% 63% 51% / 56% 41% 79% 64%;
     animation: wave2 5s linear infinite;
   }
