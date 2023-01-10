@@ -142,7 +142,7 @@ section {
   bottom: -10px;
   width: 6400px;
   height: 198px;
-  animation: waveq 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;;
+  animation: waveq 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
 }
 
