@@ -253,7 +253,7 @@ a {
     top: -120px;
   }
   
-  @keyframes animate {
+  @-webkit-keyframes animate {
     0% {
       transform: translate(-50%, -75%) rotate(0deg);
     }
