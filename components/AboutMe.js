@@ -2,8 +2,23 @@ import Image from 'next/image'
 export default function AboutMe(){
     return(
         <div className=" flex flex-col" id="aboutMe">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" id="orange-circle">
                 <path fill="#00AEEF" fill-opacity="1" d="M0,192,C220,100,440,100,660,192,C880,290,1100,290,1320,192 L1320 300 L0 300"></path>
+                <animate
+                xlink:href="#orange-circle" 
+                attributename="d" 
+                from="50" 
+                to="450" 
+                dur="2s" 
+                begin="click" 
+                values="M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300; 
+                M0,100,C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 300 L0 300;
+                M0,192,C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 300 L0 300;
+                M0,292,C220,292,440,100,660,100 C880,100,1100,292,1320,100 L1320 300 L0 300" 
+                keytimes="0; 0.5; 0.8; 1" 
+                repeatcount="indefinite" 
+                id="circ-anim">
+                </animate>
             </svg>
             <section className="blue-back text-center flex flex flex-col items-center">
                 <h1 className="label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">About me</h1>
