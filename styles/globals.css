@@ -109,25 +109,13 @@ a {
     background-color: #00AEEF;
   }
   #__next {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    min-width: 100vh;
-  }
-  
-  @media screen and (max-width: 320px) {
-    #__next {
-      display: flex
-    }
-  }
-  .liquidBubble{
-    display: block;
-    border-radius: 54% 46% 42% 58% / 60% 58% 52% 50%;
-    animation: wave 5s linear infinite;
-  }
-  @keyframes wave {
-    20%{
-      border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+@keyframes wave {
+  20%{      border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
     }
     40%{
       border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;

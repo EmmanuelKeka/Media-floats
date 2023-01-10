@@ -2,7 +2,7 @@ import {Link} from 'react-scroll'
 export default function Header(){
     return(
         <header className="blue-back">
-            <h1 className="label-font text-3xl"> MEDIA FLOATS </h1>
+            <h1 className=" text-red-500"> MEDIA FLOATS </h1>
             <nav className="lg:hidden">
                 <ul>
                     <li className="label-font">
