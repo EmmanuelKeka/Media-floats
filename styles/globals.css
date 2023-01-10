@@ -108,6 +108,18 @@ a {
   .blue-back{
     background-color: #00AEEF;
   }
+  #__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vh;
+  }
+  
+  @media screen and (max-width: 320px) {
+    #__next {
+      display: flex
+    }
+  }
   .liquidBubble{
     display: block;
     border-radius: 54% 46% 42% 58% / 60% 58% 52% 50%;
