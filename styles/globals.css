@@ -246,14 +246,14 @@ a {
     
     border-radius: 40%;
     background: #00AEEF;
-    animation: animate 10s linear infinite;
+    -webkit-animation: animate 10s linear infinite;
   }
   
   a:hover .liquid{
     top: -120px;
   }
   
-  @keyframes animate {
+  @-webkit-keyframes animate {
     0% {
       transform: translate(-50%, -75%) rotate(0deg);
     }
