@@ -2,8 +2,8 @@ import Image from 'next/image'
 export default function AboutMe(){
     return(
         <div className=" flex flex-col" id="aboutMe">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" id="orange-circle">
-                <path fill="#00AEEF" fill-opacity="1" d="M0,192,C220,100,440,100,660,192,C880,290,1100,290,1320,192 L1320 300 L0 300"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290">
+                <path fill="#00AEEF" id="orange-circle" fill-opacity="1" d="M0,192,C220,100,440,100,660,192,C880,290,1100,290,1320,192 L1320 300 L0 300"></path>
                 <animate
                 xlink:href="#orange-circle" 
                 attributename="d" 
