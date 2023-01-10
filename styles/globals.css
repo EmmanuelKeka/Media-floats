@@ -246,7 +246,7 @@ a {
     
     border-radius: 40%;
     background: #00AEEF;
-    animation: animate 10s linear infinite;
+    -webkit-animation: animate 10s linear infinite;
   }
   
   a:hover .liquid{
