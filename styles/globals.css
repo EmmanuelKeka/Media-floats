@@ -123,49 +123,6 @@ section {
   animation: wave 5s linear infinite;
 }
 
-
-
-
-
-
-
-
-
-
-
-.waveW{
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 250vw;
-  height: 250vw;
-  margin-left: -125vw;
-  transform-origin: 50% 50%;
-  background-color: transparent;
-  border-radius: 38% 42%;
-  background-color: #00AEEF;
-  animation: spin 16s infinite linear;
-  mix-blend-mode: multiply;
-}
-
-@keyframes spin {
-  100% { transform: rotate(360deg); }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes wave {
   20% {
     border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
