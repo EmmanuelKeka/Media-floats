@@ -133,37 +133,24 @@ section {
 
 
 
-
-
-
-.waveW {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/wavePurple.svg) repeat-x;
+.waveW{
+  content: '';
   position: absolute;
-  bottom: -10px;
-  width: 6400px;
-  height: 198px;
-  animation: waveq 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
+  top: 50%;
+  left: 50%;
+  width: 250vw;
+  height: 250vw;
+  margin-left: -125vw;
+  transform-origin: 50% 50%;
+  background-color: transparent;
+  border-radius: 38% 42%;
+  background-color: #00AEEF;
+  animation: spin 16s infinite linear;
+  mix-blend-mode: multiply;
 }
 
-
-
-@keyframes waveq {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
-}
-@keyframes swell {
-  0%,
-  100% {
-    transform: translate3d(0, -40px, 0);
-  }
-  50% {
-    transform: translate3d(0, -10px, 0);
-  }
+@keyframes spin {
+  100% { transform: rotate(360deg); }
 }
 
 
