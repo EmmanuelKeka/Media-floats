@@ -123,6 +123,62 @@ section {
   animation: wave 5s linear infinite;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.waveW {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/wavePurple.svg) repeat-x;
+  position: absolute;
+  bottom: -10px;
+  width: 6400px;
+  height: 198px;
+  animation: waveq 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+@keyframes waveq {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+@keyframes swell {
+  0%,
+  100% {
+    transform: translate3d(0, -40px, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes wave {
   20% {
     border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
