@@ -8,8 +8,8 @@ body {
   margin: 0;
   color: white;
   background: rgb(255, 255, 255);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, 
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -86,9 +86,7 @@ h1 {
 
 .white--para {
   color: #4b4b4b;
-  font-weight: 400;
   line-height: 124.05%;
-
 }
 
 .tittle {
@@ -194,23 +192,23 @@ svg path {
 
 @keyframes wavepath {
   0% {
-    d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
+    d: path("M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300")
   }
 
   25% {
-    d: path("M0,100,C220,100,440,292,660,292 C880,292,1100,100,1320,100 L1320 300 L0 300")
+    d: path("M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300")
   }
 
   50% {
-    d: path("M0,192,C220,290,440,290,660,192 C880,100,1100,100,1320,192 L1320 300 L0 300")
+    d: path("M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300")
   }
 
   75% {
-    d: path("M0,292,C220,292,440,100,660,100 C880,100,1100,292,1320,100 L1320 300 L0 300")
+    d: path("M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300")
   }
 
   100% {
-    d: path("M0,192,C220,100,440,100,660,192 C880,290,1100,290,1320,192 L1320 300 L0 300")
+    d: path("M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300")
   }
 }
 
@@ -231,19 +229,17 @@ svg path {
 }
 
 .media--link {
-  transition: transform .2s
+  transition: transform 0.2s
 }
 
 
-span {
+.LinkItem {
   position: relative;
   color: black;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 17px;
   line-height: 29px;
   z-index: 1;
-  padding-left: 15px;
-  padding-bottom: 15px;
 }
 
 a .liquid {
@@ -253,7 +249,7 @@ a .liquid {
   width: 200px;
   height: 200px;
   background: white;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 a .liquid::after,

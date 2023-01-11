@@ -3,7 +3,7 @@ export default function Services(){
     return(
         <div className=" flex flex-col justify-center items-center" id="services">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" className="blue-back">
-                <path fill="#FFFFFF" fill-opacity="1" d="M0,192,C220,100,440,100,660,192,C880,290,1100,290,1320,192 L1320 300 L0 300"></path>
+                <path fill="#FFFFFF" fill-opacity="1" d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300"></path>
             </svg>
             <section className="back--white text-center">
                 <h1 className="label-font tittle blue--text text-5xl mt-4 drop-shadow-lg shadow-black"> Services </h1>

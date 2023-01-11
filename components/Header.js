@@ -5,27 +5,27 @@ export default function Header(){
             <h1 className="label-font text-3xl"> MEDIA FLOATS </h1>
             <nav className="lg:hidden">
                 <ul>
-                    <li className="label-font">
+                    <li className="label-font text-center">
                         <Link  to="aboutMe" spy={true} smooth={true} offset={200} duration={500}>
-                        <span>About me</span>
+                        <span className='LinkItem'>About me</span>
                         <div className="liquid"></div>
                         </Link >
                     </li>
-                    <li className="label-font">
+                    <li className="label-font text-center">
                         <Link  to="#" spy={true} smooth={true} offset={200} duration={500}>
-                        <span>Profolio</span>
+                        <span className='LinkItem'>Profolio</span>
                         <div className="liquid"></div>
                         </Link >
                     </li>
-                    <li className="label-font">
+                    <li className="label-font text-center">
                         <Link to="services" spy={true} smooth={true} offset={200} duration={500}>
-                        <span>Services</span>
+                        <span className='LinkItem'>Services</span>
                         <div className="liquid"></div>
                         </Link >
                     </li>
-                    <li className="label-font">
+                    <li className="label-font text-center">
                         <Link  to="contact" spy={true} smooth={true} offset={200} duration={500}>
-                        <span>Contact</span>
+                        <span className='LinkItem'>Contact</span>
                         <div className="liquid"></div>
                         </Link >
                     </li>
