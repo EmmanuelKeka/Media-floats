@@ -21,8 +21,14 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: BebasNeue;
+  src: url('/BebasNeue-Regular.ttf');
+ }
+
 .label-font {
-  font-family: Bebas Neue, Sans-Serif;
+  font-family: BebasNeue;
+  src: url();
 }
 
 .label {
@@ -238,7 +244,6 @@ svg path {
   color: black;
   font-weight: 500;
   font-size: 17px;
-  line-height: 29px;
   z-index: 1;
 }
 
