@@ -117,7 +117,10 @@ section {
   padding-top: 0%;
   padding-bottom: 0%;
 }
-
+.liquid--size{
+  width: 15%;
+  height: 15%;
+}
 .blue-back {
   background-color: #00AEEF;
 }

@@ -10,7 +10,7 @@ export default function Services(){
                 <div className="flex flex-row justify-between flex-wrap max-w-4x w-full lg:flex-col lg:items-center">
                     <div className="h-[24rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[26rem]">
                         <h2 className="text-center mb-4 font-bold para--font text-lg">Front-end</h2>
-                        <p className="para--font text-lg">
+                        <p className="para--font text-lg text-center">
                         can work with cleint design or provide a design.
                         i will impliment the website using HTML, CSS and 
                         Javascript. i will make use of diffrent libriries 
@@ -25,7 +25,7 @@ export default function Services(){
 
                     <div className="h-[24rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[26rem]">
                         <h2 className="text-center mb-4 font-bold para--font text-lg"> Back-end</h2>
-                        <p className="para--font text-lg">
+                        <p className="para--font text-lg text-center">
                         can work eather with SQL or NoSQL database.
                         will impliment user authentification, payment 
                         System and other service.

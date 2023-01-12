@@ -6,26 +6,26 @@ export default function Hero(){
             <p className="white--para para--font text-lg">Make a impact with your website <br/>
             by make your media float to your public</p>
             <p className="white--para para--font text-lg"> we deliver wesite on all categories such as: </p>
-            <div className="mt-[4rem] flex flex-row flex-wrap max-w-4x w-full justify-between lg:flex-col lg:items-center">
-                <div className="m-[1rem] ">
-                <div className="web--suj blue-back liquidBubbl--two w-[8rem] h-[8rem] shadow-xl lg:w-[12rem] lg:h-[12rem] mb-5">
+            <div className="mt-[4rem] flex flex-row flex-wrap max-w-4x w-full justify-between">
+                <div className="m-[1rem] liquid--size">
+                <div className="web--suj blue-back liquidBubbl--two shadow-xl mb-5">
                 <img src="/music.png" alt="music" className=" w-[85%]"/>
                 </div>
-                <span className="white--para para--font font-semibold mt-2">MUSIC BLOG</span>
+                <span className="white--para para--font font-semibold mt-2 lg:text-[53%]">MUSIC BLOG</span>
                 </div>
 
-                <div className="m-[1rem]">
-                <div className="web--suj blue-back liquidBubbl--tree w-[8rem] h-[8rem] shadow-xl lg:w-[12rem] lg:h-[12rem] mb-5">
+                <div className="m-[1rem] liquid--size">
+                <div className="web--suj blue-back liquidBubbl--tree shadow-xl  mb-5">
                 <img src="/profolio.png" alt="music" className=" w-[85%]"/>
                 </div>
-                <span className="white--para para--font font-semibold">Profolio</span>
+                <span className="white--para para--font para--font--tittle font-semibold lg:text-[53%]">Profolio</span>
                 </div>
 
-                <div className="m-[1rem]">
-                <div className="web--suj blue-back liquidBubble w-[8rem] h-[8rem] shadow-xl lg:w-[12rem] lg:h-[12rem] mb-5">
-                <img src="/e-commerce.png" alt="music" className="pt-5 w-[85%]"/>
+                <div className="m-[1rem] liquid--size">
+                <div className="web--suj blue-back liquidBubble shadow-xl  mb-5">
+                <img src="/e-commerce.png" alt="music" className="pt-1 w-[85%]"/>
                 </div>
-                <span className="white--para para--font font-semibold">E-commerce</span>
+                <span className="white--para para--font font-semibold lg:text-[53%]" >E-commerce</span>
                 </div>
             </div>
         </section>
