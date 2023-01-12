@@ -13,7 +13,7 @@ export default function AboutMe(){
                         <Image src="/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                     </div>
-                    <div className="bg-white rounded-xl p-5 m-[1rem]  h-[21rem] w-[22rem] text-center shadow-xl lg:h-[30rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
+                    <div className="bg-white rounded-xl p-5 m-[1rem]  h-[19rem] w-[22rem] text-center shadow-xl lg:h-[30rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
                         <p className="para--font text-black">
                         Hi, I am Emmanuel Keka. I love anime, cars, and everything that has to do with technology and science. 
                         I am very passionate about software development and love to see my ideas come to life. Let me also help you bring your 
