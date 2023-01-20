@@ -7,6 +7,7 @@ import AboutMe from '../components/AboutMe'
 import Services from '../components/Services'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Profolio from '../components/Profolio'
 export default function Home() {
 
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero/>
       <AboutMe/>
       <Services/>
+      <Profolio/>
       <Contact/>
       <Footer/>
     </div>

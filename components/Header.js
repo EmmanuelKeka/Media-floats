@@ -12,14 +12,14 @@ export default function Header(){
                         </Link >
                     </li>
                     <li className="label-font text-center">
-                        <Link  to="#" spy={true} smooth={true} offset={200} duration={500}>
-                        <span className='LinkItem'>Profolio</span>
+                        <Link to="services" spy={true} smooth={true} offset={200} duration={500}>
+                        <span className='LinkItem'>Services</span>
                         <div className="liquid"></div>
                         </Link >
                     </li>
                     <li className="label-font text-center">
-                        <Link to="services" spy={true} smooth={true} offset={200} duration={500}>
-                        <span className='LinkItem'>Services</span>
+                        <Link  to="#" spy={true} smooth={true} offset={200} duration={500}>
+                        <span className='LinkItem'>Profolio</span>
                         <div className="liquid"></div>
                         </Link >
                     </li>

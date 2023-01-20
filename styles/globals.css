@@ -23,7 +23,7 @@ a {
 
 @font-face {
   font-family: BebasNeue;
-  src: url('/BebasNeue-Regular.ttf');
+  src: url('/fonts/BebasNeue-Regular.ttf');
  }
 
 .label-font {
@@ -97,10 +97,12 @@ h1 {
 
 .tittle {
   margin-bottom: 50px;
+  color: #4b4b4b;
 }
 
 .para--font {
-  font-family: Oswald, Sans-Serif;
+  font-family: BebasNeue;
+  color: #4b4b4b;
 }
 
 .web--suj {

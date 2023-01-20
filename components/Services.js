@@ -8,8 +8,8 @@ export default function Services(){
             <section className="back--white text-center">
                 <h1 className="label-font tittle blue--text text-5xl mt-4 drop-shadow-lg shadow-black"> Services </h1>
                 <div className="flex flex-row justify-between flex-wrap max-w-4x w-full lg:flex-col lg:items-center">
-                    <div className="h-[24rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[26rem]">
-                        <h2 className="text-center mb-4 font-bold para--font text-lg">Front-end</h2>
+                    <div className="h-[19rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[21rem]">
+                        <h2 className="text-center mb-4 para--font text-lg">Front-end</h2>
                         <p className="para--font text-lg text-center">
                         can work with cleint design or provide a design.
                         i will impliment the website using HTML, CSS and 
@@ -17,14 +17,14 @@ export default function Services(){
                         and framework to bring your website to the next level     
                         </p>
                     </div>
-                    <div className=" mt- blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[1rem] shadow-xl lg:w-[12rem] lg:h-[12rem]">
+                    <div className=" mt-auto mb-auto blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[ shadow-xl lg:w-[12rem] lg:h-[12rem]">
                         <div className='pt-6'>
                         <Image src="/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                     </div>
 
-                    <div className="h-[24rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[26rem]">
-                        <h2 className="text-center mb-4 font-bold para--font text-lg"> Back-end</h2>
+                    <div className="h-[19rem] w-[14rem] blue-back text-2xl text-left rounded-xl p-5 m-[1rem] shadow-xl lg:w-[12rem] lg:h-[21rem]">
+                        <h2 className="text-center mb-4 para--font text-lg"> Back-end</h2>
                         <p className="para--font text-lg text-center">
                         can work eather with SQL or NoSQL database.
                         will impliment user authentification, payment 

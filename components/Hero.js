@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Hero(){
     return(
         
@@ -9,23 +10,23 @@ export default function Hero(){
             <div className="mt-[4rem] flex flex-row flex-wrap max-w-4x w-full justify-between">
                 <div className="lg:w-[5rem] w-[9rem]">
                 <div className="web--suj blue-back liquidBubbl--two shadow-xl">
-                <img src="/music.png" alt="music" className=" w-[85%]"/>
+                <Image src="/image/music.png" alt="music"  height="300" width="300" priority/>
                 </div>
-                <span className="white--para para--font font-semibold mt-2 lg:text-[70%] ">MUSIC BLOG</span>
+                <span className="white--para para--font mt-2 lg:text-[70%] ">MUSIC BLOG</span>
                 </div>
 
                 <div className="lg:w-[5rem]  w-[9rem]">
                 <div className="web--suj blue-back liquidBubbl--tree shadow-xl">
-                <img src="/profolio.png" alt="music" className=" w-[85%]"/>
+                <Image src="/image/profolio.png" alt="music" height="300" width="300" priority/>
                 </div>
-                <span className="white--para para--font para--font--tittle font-semibold lg:text-[70%]">Profolio</span>
+                <span className="white--para para--font para--font--tittle lg:text-[70%]">Profolio</span>
                 </div>
 
                 <div className="lg:w-[5rem]  w-[9rem]">
                 <div className="web--suj blue-back liquidBubble shadow-xl ">
-                <img src="/e-commerce.png" alt="music" className="pt-1 w-[85%]"/>
+                <Image src="/image/e-commerce.png" alt="music" height="300" width="300" priority/>
                 </div>
-                <span className="white--para para--font font-semibold lg:text-[70%]" >E-commerce</span>
+                <span className="white--para para--font lg:text-[70%]" >E-commerce</span>
                 </div>
             </div>
         </section>
