@@ -7,7 +7,7 @@ export default function Header(){
                 <ul>
                     <li className="label-font text-center">
                         <Link  to="aboutMe" spy={true} smooth={true} offset={200} duration={500}>
-                        <span className='LinkItem'>About me</span>
+                        <p className='LinkItem'>About me</p>
                         <div className="liquid"></div>
                         </Link >
                     </li>

@@ -17,9 +17,9 @@ export default function AboutMe(){
                         <p className="para--font text-black pl-4 pr-4">
                         As a software developer, my passion lies in creating innovative and impactful applications. 
                         Allow me to assist you in bringing your unique vision to life, 
-                        and let's work together to create something truly inspiring and 
+                        and let&apos;s work together to create something truly inspiring and 
                         game-changing. I am excited to be a part of this journey and to see
-                         your ideas come to fruition. Let's turn your dreams into a reality.
+                         your ideas come to fruition. Let&apos;s turn your dreams into a reality.
                         </p>
                     </div>
                 </div>
