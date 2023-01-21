@@ -19,7 +19,7 @@ export default function Services(){
                     </div>
                     <div className=" mt-auto mb-auto blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[ shadow-xl lg:w-[12rem] lg:h-[12rem]">
                         <div className='pt-6'>
-                        <Image src="/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
+                        <Image src="/image/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                     </div>
 
