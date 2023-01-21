@@ -298,13 +298,13 @@ svg path {
 
 .floating { 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 .floating2 { 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
@@ -318,21 +318,21 @@ svg path {
 }
 .floating4 { 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: -2s;
 }
 .floating5 { 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 1.5s;
 }
 .floating6 { 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;

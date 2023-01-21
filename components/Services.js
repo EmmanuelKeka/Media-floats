@@ -7,14 +7,14 @@ export default function Services(){
             </svg>
             <section className="back--white text-center flex-col flex items-center ">
                 <h1 className="floating4 label-font tittle blue--text text-5xl mt-4 drop-shadow-lg shadow-black"> Services </h1>
-                <div className=" mt-auto mb-auto blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[ shadow-xl lg:w-[12rem] lg:h-[12rem]">
+                <div className=" mt-auto mb-auto blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[ shadow-xl lg:w-[8rem] lg:h-[8rem]">
                         <div className="pt-6">
                         <Image className="floating" src="/image/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                 </div>
-                <div className="floating2 blue-back rounded-xl h-[23rem] w-[40rem] shadow-xl flex-col flex items-center mt-14">
+                <div className="floating2 blue-back rounded-xl h-[23rem] w-[40rem] shadow-xl flex-col flex items-center mt-14 lg:w-[19rem] lg:h-[40rem]">
 
-                        <div className="bg-white w-[9rem] h-[9rem] flex items-center justify-center liquidBubble overflow-hidden shadow-xl lg:w-[14rem] lg:h-[14rem] m-5">
+                        <div className="bg-white w-[9rem] h-[9rem] flex items-center justify-center liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem] m-5">
                                 <h2 className="text-center mb-4 para--font text-gray-700 text-lg pt-2">Web application</h2>
                         </div>
                             <p className="para--font text-lg text-center pb-5 pl-5 pr-5 ">
@@ -32,9 +32,9 @@ export default function Services(){
                             </p>
                 </div>
 
-                <div className="floating blue-back rounded-xl h-[20rem] w-[40rem] shadow-xl flex-col flex items-center mt-14">
+                <div className="floating blue-back rounded-xl h-[20rem] w-[40rem] shadow-xl flex-col flex items-center mt-14 lg:w-[19rem] lg:h-[32rem]">
 
-                    <div className="bg-white w-[9rem] h-[10rem] flex items-center justify-center liquidBubble overflow-hidden shadow-xl lg:w-[14rem] lg:h-[14rem] m-5">
+                    <div className="bg-white w-[9rem] h-[10rem] flex items-center justify-center liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem] m-5">
                         <h2 className="text-center text-gray-700 para--font text-lg  mt-auto mb-auto">Mobile Application</h2>
                     </div>
                     <p className="para--font text-lg text-center pb-5 pr-5 pl-5">
@@ -48,8 +48,8 @@ export default function Services(){
                     </p>
                 </div>
 
-                <div className=" floating3 blue-back rounded-xl h-[19rem] w-[40rem] shadow-xl flex-col flex items-center mt-14">
-                    <div className="bg-white w-[9rem] h-[10rem] flex items-center justify-center liquidBubble overflow-hidden shadow-xl lg:w-[14rem] lg:h-[14rem] m-5">
+                <div className=" floating3 blue-back rounded-xl h-[19rem] w-[40rem] shadow-xl flex-col flex items-center mt-14 lg:w-[19rem] lg:h-[30rem]">
+                    <div className="bg-white w-[9rem] h-[10rem] flex items-center justify-center liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem] m-5">
                         <h2 className="text-center text-gray-700 para--font text-lg  mt-auto mb-auto">Game</h2>
                     </div>
                     <div className="text-center flex flex-row justify-between flex-wrap max-w-4x w-full lg:flex-col lg:items-center">
