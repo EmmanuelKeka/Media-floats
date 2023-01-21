@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image"
 export default function ProjectItem(props){
     return(
         <div className="lg:w-[5rem]  w-[9rem]">
