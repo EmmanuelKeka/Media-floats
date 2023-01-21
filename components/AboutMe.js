@@ -6,18 +6,20 @@ export default function AboutMe(){
                 <path id='"orange-circle" ' fill="#00AEEF" fill-opacity="1" d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" width="100%" height="100%"></path>
             </svg>
             <section className="blue-back text-center flex flex-col items-center">
-                <h1 className="label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">About me</h1>
+                <h1 className="floating label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">About me</h1>
                 <div className=" flex flex-col max-w-4x w-full flex-col items-center">
-                    <div className="bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[14rem] lg:h-[14rem]">
+                    <div className=" bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[14rem] lg:h-[14rem]">
                         <div className='pt-6'>
-                        <Image src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
+                        <Image className='floating2' src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
                     </div>
-                    <div className="bg-white rounded-xl py-4 h-[14rem] w-[22rem] text-center shadow-xl lg:p-[0.5rem] lg:h-[29rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
+                    <div className="floating3 bg-white rounded-xl py-4 h-[14rem] w-[22rem] text-center shadow-xl lg:p-[0.5rem] lg:h-[29rem] lg:w-[14rem] p-0 text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
                         <p className="para--font text-black pl-4 pr-4">
-                        Hi, I am Emmanuel Keka. I love anime, cars, and everything that has to do with technology and science. 
-                        I am very passionate about software development and love to see my ideas come to life. Let me also help you bring your 
-                        ideas and dreams to life by providing you with a beautiful website. I am looking forward to working with you.
+                        As a software developer, my passion lies in creating innovative and impactful applications. 
+                        Allow me to assist you in bringing your unique vision to life, 
+                        and let's work together to create something truly inspiring and 
+                        game-changing. I am excited to be a part of this journey and to see
+                         your ideas come to fruition. Let's turn your dreams into a reality.
                         </p>
                     </div>
                 </div>

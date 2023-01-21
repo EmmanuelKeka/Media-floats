@@ -91,8 +91,8 @@ h1 {
 }
 
 .white--para {
-  color: #4b4b4b;
   line-height: 124.05%;
+  color: #4b4b4b;
 }
 
 .tittle {
@@ -102,7 +102,6 @@ h1 {
 
 .para--font {
   font-family: BebasNeue;
-  color: #4b4b4b;
 }
 
 .web--suj {
@@ -295,4 +294,52 @@ svg path {
   100%{
     d: path("M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300")
   }
+}
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.floating2 { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+.floating3 { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+}
+.floating4 { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -2s;
+}
+.floating5 { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+}
+.floating6 { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(30px, 30px); }
+  100%   { transform: translate(0, -0px); }   
 }
