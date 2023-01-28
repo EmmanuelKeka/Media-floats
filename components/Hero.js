@@ -10,9 +10,9 @@ export default function Hero(){
                 <br/>{"we'll make your brand shine across various industries and niches. our services includes"}
             </p>
             <div className="mt-[4rem] flex flex-row flex-wrap max-w-4x w-full justify-between">
-                <div className=" flex flex-row flex-wrap w-[25rem] justify-between">
+                <div className=" flex flex-row flex-wrap w-[45%] justify-between lg:w-[100%]">
                     <div className="lg:w-[7rem] w-[9rem]">
-                    <div className="web--suj blue-back liquidBubbl--two shadow-xl overflow-hidden">
+                    <div className="relative web--suj blue-back liquidBubbl--two shadow-xl overflow-hidden">
                     <Image className="floating" src="/image/music.png" alt="music"  height="300" width="300" priority/>
                     </div>
                     <p className="floating4 white--para para--font mt-2 lg:text-[70%] ">MUSIC BLOG</p>
@@ -25,7 +25,7 @@ export default function Hero(){
                     <p className="floating5 white--para para--font para--font--tittle lg:text-[70%]">Profolio</p>
                     </div>
                 </div>
-                <div className=" w-[25rem] justify-between flex flex-row flex-wrap lg:mt-10">
+                <div className=" relativew-[45%] justify-between flex flex-row flex-wrap lg:mt-10 lg:w-[100%]">
                     <div className="lg:w-[7rem]  w-[9rem]">
                     <div className="web--suj blue-back liquidBubble shadow-xl overflow-hidden ">
                     <Image className="floating3" src="/image/e-commerce.png" alt="music" height="300" width="300" priority/>
