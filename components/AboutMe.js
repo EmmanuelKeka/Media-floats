@@ -11,7 +11,7 @@ export default function AboutMe(){
                 <div className=" flex flex-col max-w-4x w-full flex-col items-center">
 
 
-                        <div className="pt-6 bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem]">
+                        <div className="pt-6 relative bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem]">
                         <Image className="" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
 
