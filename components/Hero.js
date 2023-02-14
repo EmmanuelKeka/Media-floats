@@ -19,7 +19,7 @@ export default function Hero(){
                     </div>
 
                     <div className="lg:w-[7rem]  w-[9rem]">
-                    <div className="web--suj blue-back liquidBubbl--tree shadow-xl overflow-hidden">
+                    <div className="web--suj blue-back liquidBubbl--tree shadow-xl overflow-hidden relative">
                     <Image className="floating2" src="/image/profolio.png" alt="music" height="300" width="300" priority/>
                     </div>
                     <p className="floating5 white--para para--font para--font--tittle lg:text-[70%]">Profolio</p>
