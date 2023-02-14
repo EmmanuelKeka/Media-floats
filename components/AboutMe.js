@@ -12,7 +12,7 @@ export default function AboutMe(){
 
 
                         <div className="pt-6 relative bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem]">
-                        <Image className="floating2" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
+                        <Image className="floating2 liquidBubble" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
 
 
