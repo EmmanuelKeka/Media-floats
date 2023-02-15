@@ -7,12 +7,7 @@ export default function AboutMe(){
         <div className=" flex flex-col" id="aboutMe">
 
 <svg viewBox="0 0 1320 300">
-      <path id="wavepath-1" d="M0 192 C220 100 440 100 660 192" />
-      <path id="wavepath-2" d="M660 192 C880 290 1100 290 1320 192" />
       <path id="wavepath-3" d="M1320 192 L1320 300 L0 300" />
-      <use href="#wavepath-1" style={{animation: 'wavepath 12s linear infinite', WebkitTransform: 'translate3d(0, 0, 0)'}} />
-      <use href="#wavepath-2" style={{animation: 'wavepath 12s linear infinite', animationDelay: '-3s', WebkitTransform: 'translate3d(0, 0, 0)'}} />
-      <use href="#wavepath-3" />
     </svg>
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" width="100%" height="100%">
