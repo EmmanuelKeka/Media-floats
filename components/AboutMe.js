@@ -38,7 +38,7 @@ export default function AboutMe(){
 
     return(
         <div className=" flex flex-col" id="aboutMe">
-            <svg  viewBox="0 0 1320 290" width="100%" height="100%">
+            <svg className="button-div relative"  viewBox="0 0 1320 290" width="100%" height="100%">
       <path d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" ref={pathRef} />
     </svg>
 
