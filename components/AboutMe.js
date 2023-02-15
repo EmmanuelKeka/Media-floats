@@ -6,16 +6,15 @@ export default function AboutMe(){
 
     return(
         <div className=" flex flex-col" id="aboutMe">
-            <div className=" w-[100%] h-[20rem] button-div relative overflow-hidden">
-<div class="ocean">
-  <div class="wavevi"></div>
-  <div class="wavevi"></div>
-</div>
-</div>
+            <div className=" w-[100%] h-[16rem] button-div relative overflow-hidden">
+                <div class="ocean">
+                    <div class="wavevi"></div>
+                </div>
+            </div>
 
 
             
-            <section className="blue-back text-center flex flex-col items-center">
+            <section className="blue-back text-center flex flex-col pb-[8rem] items-center">
                 <h1 className="floating label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">About me</h1>
                 <div className=" flex flex-col max-w-4x w-full flex-col items-center">
 

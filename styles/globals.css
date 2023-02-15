@@ -275,27 +275,6 @@ a:hover .liquid {
   }
 }
 
-svg path {
-  animation: wavepath 12s linear infinite;
-}
-@keyframes wavepath {
-  0%{
-    d: path("M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300")
-  }
-  25%{
-    d: path("M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300")
-  }
-  50%{
-    d: path("M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300")
-  }
-  75%{
-    d: path("M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300")
-  }
-  100%{
-    d: path("M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300")
-  }
-}
-
 .floating { 
   animation-name: floating;
   animation-duration: 6s;
@@ -346,38 +325,24 @@ svg path {
   100%   { transform: translate(0, -0px); }   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ocean { 
-  height: 5%;
   width:100%;
   position:absolute;
   bottom:0;
   left:0;
-  background: #015871;
 }
 
 .wavevi {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  background: url("../public/svg/wave.svg"); 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wavevi 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+.wavevi_white {
+  background: url("../public/svg/wave_white.svg"); 
   position: absolute;
   top: -198px;
   width: 6400px;

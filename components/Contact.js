@@ -2,9 +2,11 @@ import Image from "next/image"
 export default function Contact(){
     return(
         <div className="blue-back flex flex-col" id="contact">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" >
-                <path fill="white" fill-opacity="1" d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300"></path>
-            </svg>
+            <div className=" w-[100%] h-[16rem] button-div relative overflow-hidden">
+                <div class="ocean">
+                    <div class="wavevi_white"></div>
+                </div>
+            </div>
             <section className="bg-white text-center flex flex-col items-center">
                 <h1 className="floating3 label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">Contact</h1>
                 <div className="pt-1 blue-back relative button-div  bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl lg:w-[8rem] lg:h-[8rem] ">

@@ -2,9 +2,11 @@ import Image from "next/image"
 export default function Services(){
     return(
         <div className=" flex flex-col justify-center items-center" id="services">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" className="blue-back">
-                <path fill="#FFFFFF" fill-opacity="1" d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300"></path>
-            </svg>
+            <div className=" w-[100%] blue-back h-[13rem] button-div relative overflow-hidden ">
+                <div class="ocean">
+                    <div class="wavevi_white"></div>
+                </div>
+            </div>
             <section className="back--white text-center flex-col flex items-center ">
                 <h1 className="floating4 label-font tittle blue--text text-5xl mt-4 drop-shadow-lg shadow-black"> Services </h1>
                 <div className="pt-6 relative button-div mt-auto mb-auto blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[ shadow-xl lg:w-[8rem] lg:h-[8rem]">
