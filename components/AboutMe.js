@@ -1,66 +1,18 @@
 import Image from "next/image"
-import React, { useRef, useEffect } from 'react';
-import anime from 'animejs';
-import { keyframes } from 'styled-components';
-import { useWebAnimations } from '@wellyshen/use-web-animations';
+import { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
 
 export default function AboutMe(){
-    const svgRef = useRef(null);
-    const WaveAnimation = () => {
-      
-        useEffect(() => {
-          const timeline = anime.timeline({
-            targets: svgRef.current.querySelectorAll("path"),
-            duration: 8000,
-            easing: "linear",
-            loop: true
-          });
-      
-          timeline.add({
-            d: [
-              {
-                value:
-                  "M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300"
-              },
-              {
-                value:
-                  "M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300"
-              },
-              {
-                value:
-                  "M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300"
-              },
-              {
-                value:
-                  "M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300"
-              },
-              {
-                value:
-                  "M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300"
-              }
-            ]
-          });
-        }, []);
-    }
-
-
-   
 
     return(
         <div className=" flex flex-col" id="aboutMe">
-<svg
-      ref={svgRef}
-      viewBox="0 0 1320 300"
-      xmlns="http://www.w3.org/2000/svg"
-      style={{ backgroundColor: "black" }}
-    >
-      <path
-        fill="#d0d0d0"
-        d="M0 300 L0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 Z"
-      ></path>
-    </svg>
+            <div className=" w-[100%] h-[20rem] button-div relative overflow-hidden">
+<div class="ocean">
+  <div class="wavevi"></div>
+  <div class="wavevi"></div>
+</div>
+</div>
 
-      
 
             
             <section className="blue-back text-center flex flex-col items-center">
