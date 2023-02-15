@@ -1,45 +1,18 @@
 import Image from "next/image"
 import { useRef, useEffect } from 'react';
 export default function AboutMe(){
-    const pathRef = useRef(null);
-    function getPathValue(value) {
-        switch (value) {
-          case 0:
-            return "M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300";
-          case 25:
-            return "M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300";
-          case 50:
-            return "M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300";
-          case 75:
-            return "M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300";
-          case 100:
-            return "M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300";
-          default:
-            return "";
-        }
-      }
 
-    function WaveAnimation() {
-      
-        useEffect(() => {
-          let progress = 0;
-          const path = pathRef.current;
-      
-          const animatePath = () => {
-            progress = (progress + 1) % 100;
-            path.setAttribute('d', getPathValue(progress));
-            requestAnimationFrame(animatePath);
-          };
-      
-          animatePath();
-        }, []);
-    }
-    WaveAnimation();
 
     return(
         <div className=" flex flex-col" id="aboutMe">
-            <svg className="button-div relative"  viewBox="0 0 1320 290" width="100%" height="100%">
-      <path d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" ref={pathRef} />
+
+<svg viewBox="0 0 1320 300">
+      <path id="wavepath-1" d="M0 192 C220 100 440 100 660 192" />
+      <path id="wavepath-2" d="M660 192 C880 290 1100 290 1320 192" />
+      <path id="wavepath-3" d="M1320 192 L1320 300 L0 300" />
+      <use href="#wavepath-1" style={{animation: 'wavepath 12s linear infinite'}} />
+      <use href="#wavepath-2" style={{animation: 'wavepath 12s linear infinite', animationDelay: '-3s'}} />
+      <use href="#wavepath-3" />
     </svg>
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" width="100%" height="100%">
