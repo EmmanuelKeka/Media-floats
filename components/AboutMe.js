@@ -16,7 +16,7 @@ export default function AboutMe(){
                         </div>
 
 
-                    <div className="floating3 bg-white rounded-xl py-4 h-[14rem] w-[22rem] text-center shadow-xl lg:p-[0.5rem] lg:h-[22.9rem] lg:w-[14rem] text-lg text-left m-[1rem] lg:w-[12rem] lg:h-[33rem]">
+                    <div className="floating3 bg-white rounded-xl py-4 h-[14rem] w-[22rem] text-center shadow-xl lg:p-[0.5rem] text-lg text-left m-[1rem] lg:w-[19rem] lg:h-[13rem]">
                         <p className="para--font text-black lg:text-base pl-4 pr-4">
                         {" As a software developer, my passion lies in creating innovative and impactful applications. Allow me to assist you in bringing your unique vision to life, and let's work together to create something truly inspiring and game-changing. I am excited to be a part of this journey and to see your ideas come to fruition. Let's turn your dreams into a reality."}
                         </p>
