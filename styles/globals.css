@@ -311,7 +311,7 @@ svg path {
 }
 .floating3 { 
   animation-name: floating;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: -1s;
