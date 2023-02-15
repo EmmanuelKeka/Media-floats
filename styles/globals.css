@@ -303,18 +303,33 @@ a:hover .liquid {
   animation-delay: -2s;
 }
 .floating5 { 
-  animation-name: floating;
+  animation-name: floatingSmall;
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 1.5s;
 }
 .floating6 { 
-  animation-name: floating;
+  animation-name: floatingSmall;
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;
+}
+
+.floating7 { 
+  animation-name: floatingSmall;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+.floating8 { 
+  animation-name: floatingSmall;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: -0.5s;
 }
 
 .button-div { -webkit-mask-image: -webkit-radial-gradient(white, black);}
@@ -322,6 +337,11 @@ a:hover .liquid {
 @keyframes floating {
   0% { transform: translate(0,  0px); }
   50%  { transform: translate(30px, 30px); }
+  100%   { transform: translate(0, -0px); }   
+}
+@keyframes floatingSmall {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(15px, 15px); }
   100%   { transform: translate(0, -0px); }   
 }
 

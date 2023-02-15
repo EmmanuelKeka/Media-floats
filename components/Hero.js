@@ -14,14 +14,14 @@ export default function Hero(){
                 <div className=" flex flex-row flex-wrap w-[45%] justify-between lg:w-[100%]">
                     <div className="lg:w-[7rem] w-[9rem]">
                     <div className="relative button-div web--suj blue-back liquidBubbl--two shadow-xl overflow-hidden">
-                        <Image className="floating" src="/image/music.png" alt="music"  height="300" width="300" priority/>
+                        <Image className="floating5" src="/image/music.png" alt="music"  height="300" width="300" priority/>
                     </div>
-                    <p className="floating4 white--para para--font mt-2 lg:text-[70%] ">MUSIC BLOG</p>
+                    <p className="floating8 white--para para--font mt-2 lg:text-[70%] ">MUSIC BLOG</p>
                     </div>
 
                     <div className="lg:w-[7rem]  w-[9rem]">
                     <div className="web--suj relative button-div blue-back liquidBubbl--tree shadow-xl overflow-hidden relative">
-                        <Image className="floating2" src="/image/profolio.png" alt="music" height="300" width="300" priority/>
+                        <Image className="floating6" src="/image/profolio.png" alt="music" height="300" width="300" priority/>
                     </div>
                     <p className="floating5 white--para para--font para--font--tittle lg:text-[70%]">Profolio</p>
                     </div>
@@ -31,15 +31,15 @@ export default function Hero(){
 
                     <div className="lg:w-[7rem]  w-[9rem]">
                     <div className="web--suj relative button-div blue-back liquidBubble shadow-xl overflow-hidden ">
-                    <Image className="floating3" src="/image/e-commerce.png" alt="music" height="300" width="300" priority/>
+                    <Image className="floating7" src="/image/e-commerce.png" alt="music" height="300" width="300" priority/>
                     </div>
                     
-                    <p className="floating white--para para--font lg:text-[70%]" >E-commerce</p>
+                    <p className="floating8 white--para para--font lg:text-[70%]" >E-commerce</p>
                     </div>
 
                     <div className="lg:w-[7rem]  w-[9rem]">
                     <div className="web--suj relative button-div blue-back liquidBubble shadow-xl overflow-hidden">
-                    <Image className="floating4" src="/image/game.png" alt="music" height="300" width="300" priority/>
+                    <Image className="floating8" src="/image/game.png" alt="music" height="300" width="300" priority/>
                     </div>
                     <p className="floating6 white--para para--font lg:text-[70%]" >Game</p>
                     </div>

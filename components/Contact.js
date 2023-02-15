@@ -12,7 +12,7 @@ export default function Contact(){
                 <div className="pt-1 blue-back relative button-div  bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl lg:w-[8rem] lg:h-[8rem] ">
                     <Image className="floating6" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                 </div>
-                <form className="floating mb-8 max-w-4x w-full">
+                <form className="mb-8 max-w-4x w-full">
                 <div className="flex flex-row justify-between mb-4 w-full lg:flex-col">
                 <input type="text" id="name" class=" focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-2 placeholder-gray-300 blue-back text-sm rounded-lg w-[49%] p-2.5 text-white shadow-xl lg:w-[100%]" placeholder="Name" required/>
                 <input type="text" id="first_name" class="focus:outline-none focus:border-gray-500 focus:ring-gray-500 block w-full rounded-md sm:text-sm focus:ring-2 placeholder-gray-300 blue-back text-sm rounded-lg w-[49%] p-2.5 text-white shadow-xl lg:w-[100%] lg:mt-3" placeholder="Email" required/>
