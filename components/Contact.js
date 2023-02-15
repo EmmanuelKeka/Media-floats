@@ -7,10 +7,8 @@ export default function Contact(){
             </svg>
             <section className="bg-white text-center flex flex-col items-center">
                 <h1 className="floating3 label-font tittle white--text text-5xl mt-4 drop-shadow-lg shadow-black">Contact</h1>
-                <div className=" mt- bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl lg:w-[8rem] lg:h-[8rem]">
-                        <div className="pt-1 blue-back">
-                        <Image className="floating6" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
-                        </div>
+                <div className="pt-1 blue-back relative button-div  bg-white w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden mb-9 shadow-xl lg:w-[8rem] lg:h-[8rem] ">
+                    <Image className="floating6" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                 </div>
                 <form className="floating mb-8 max-w-4x w-full">
                 <div className="flex flex-row justify-between mb-4 w-full lg:flex-col">
