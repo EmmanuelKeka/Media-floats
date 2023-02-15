@@ -1,33 +1,60 @@
 import Image from "next/image"
-import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
+import React, { useRef, useEffect } from 'react';
+import anime from 'animejs';
 
 export default function AboutMe(){
-    const svgRef = useRef(null);
-    function AnimatedSvg() {
+    const pathRef = useRef(null);
+    const path = pathRef.current;
+
+    function SvgAnimation() {
+
         useEffect(() => {
-          const path = svgRef.current.querySelector('path');
-          const timeline = gsap.timeline({ repeat: -1, yoyo: true });
       
+          // Set up the animation timeline
+          const timeline = anime.timeline({
+            loop: true,
+            easing: 'linear',
+          });
+      
+          // Add keyframes to the timeline
           timeline
-            .to(path, { duration: 3, attr: { d: "M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300" } })
-            .to(path, { duration: 3, attr: { d: "M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300" } })
-            .to(path, { duration: 3, attr: { d: "M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300" } })
-            .to(path, { duration: 3, attr: { d: "M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" } });
+            .add({
+              targets: path,
+              duration: 3000,
+              d: 'M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300',
+            })
+            .add({
+              targets: path,
+              duration: 3000,
+              d: 'M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300',
+            })
+            .add({
+              targets: path,
+              duration: 3000,
+              d: 'M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300',
+            })
+            .add({
+              targets: path,
+              duration: 3000,
+              d: 'M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300',
+            });
       
-          return () => {
-            timeline.kill();
-          };
+          // Start the animation
+          timeline.play();
         }, []);
     }
-    AnimatedSvg()
+        SvgAnimation()
 
     return(
         <div className=" flex flex-col" id="aboutMe">
 
-<svg ref={svgRef} vxmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" width="100%" height="100%">
-      <path   fill="#00AEEF" d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" />
-    </svg>
+<svg viewBox="0 0 1320 300" style={{ backgroundColor: 'black' }}>
+      <path
+        d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300"
+        ref={pathRef}
+        style={{ fill: 'none', stroke: 'white', strokeWidth: 2 }}
+      />
+      </svg>
 
             
             <section className="blue-back text-center flex flex-col items-center">
