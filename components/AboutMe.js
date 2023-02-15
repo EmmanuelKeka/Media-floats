@@ -1,13 +1,32 @@
 import Image from "next/image"
-import { useRef, useEffect } from 'react';
-export default function AboutMe(){
+import { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
 
+export default function AboutMe(){
+    const svgRef = useRef(null);
+    function AnimatedSvg() {
+        useEffect(() => {
+          const path = svgRef.current.querySelector('path');
+          const timeline = gsap.timeline({ repeat: -1, yoyo: true });
+      
+          timeline
+            .to(path, { duration: 3, attr: { d: "M0 100 C220 100 440 292 660 292 C880 292 1100 100 1320 100 L1320 300 L0 300" } })
+            .to(path, { duration: 3, attr: { d: "M0 192 C220 290 440 290 660 192 C880 100 1100 100 1320 192 L1320 300 L0 300" } })
+            .to(path, { duration: 3, attr: { d: "M0 292 C220 292 440 100 660 100 C880 100 1100 292 1320 100 L1320 300 L0 300" } })
+            .to(path, { duration: 3, attr: { d: "M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" } });
+      
+          return () => {
+            timeline.kill();
+          };
+        }, []);
+    }
+    AnimatedSvg()
 
     return(
         <div className=" flex flex-col" id="aboutMe">
 
-<svg viewBox="0 0 1320 300">
-      <path id="wavepath-3" d="M1320 192 L1320 300 L0 300" />
+<svg ref={svgRef} vxmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" width="100%" height="100%">
+      <path   fill="#00AEEF" d="M0 192 C220 100 440 100 660 192 C880 290 1100 290 1320 192 L1320 300 L0 300" />
     </svg>
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 290" width="100%" height="100%">
