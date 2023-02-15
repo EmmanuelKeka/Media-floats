@@ -11,8 +11,8 @@ export default function AboutMe(){
                 <div className=" flex flex-col max-w-4x w-full flex-col items-center">
 
 
-                        <div className="pt-6 relative bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem]">
-                        <Image className="floating2 liquidBubble" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
+                        <div className="pt-6 button-div relative bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem]">
+                        <Image className="floating2 " src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
 
 

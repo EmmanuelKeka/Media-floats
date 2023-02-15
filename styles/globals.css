@@ -338,6 +338,8 @@ svg path {
   animation-delay: 0.5s;
 }
 
+.button-div { -webkit-mask-image: -webkit-radial-gradient(white, black);}
+
 @keyframes floating {
   0% { transform: translate(0,  0px); }
   50%  { transform: translate(30px, 30px); }
