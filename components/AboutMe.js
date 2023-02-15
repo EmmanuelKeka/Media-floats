@@ -10,8 +10,8 @@ export default function AboutMe(){
       <path id="wavepath-1" d="M0 192 C220 100 440 100 660 192" />
       <path id="wavepath-2" d="M660 192 C880 290 1100 290 1320 192" />
       <path id="wavepath-3" d="M1320 192 L1320 300 L0 300" />
-      <use href="#wavepath-1" style={{animation: 'wavepath 12s linear infinite'}} />
-      <use href="#wavepath-2" style={{animation: 'wavepath 12s linear infinite', animationDelay: '-3s'}} />
+      <use href="#wavepath-1" style={{animation: 'wavepath 12s linear infinite', WebkitTransform: 'translate3d(0, 0, 0)'}} />
+      <use href="#wavepath-2" style={{animation: 'wavepath 12s linear infinite', animationDelay: '-3s', WebkitTransform: 'translate3d(0, 0, 0)'}} />
       <use href="#wavepath-3" />
     </svg>
 
