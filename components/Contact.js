@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function Contact(){
     return(
         <div className="blue-back flex flex-col" id="contact">
-            <div className=" w-[100%] h-[16rem] button-div relative overflow-hidden">
+            <div className=" w-[100%] h-[16rem] button-div relative overflow-hidden mb-[-3px]">
                 <div class="ocean">
                     <div class="wavevi_white"></div>
                 </div>

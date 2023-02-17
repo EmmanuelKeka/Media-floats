@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function Services(){
     return(
         <div className=" flex flex-col justify-center items-center" id="services">
-            <div className=" w-[100%] blue-back h-[13rem] button-div relative overflow-hidden ">
+            <div className=" w-[100%] blue-back h-[13rem] button-div relative overflow-hidden mb-[-3px]">
                 <div class="ocean">
                     <div class="wavevi_white"></div>
                 </div>
@@ -10,7 +10,7 @@ export default function Services(){
             <section className="back--white text-center flex-col flex items-center ">
                 <h1 className="floating4 label-font tittle blue--text text-5xl mt-4 drop-shadow-lg shadow-black"> Services </h1>
                 <div className="pt-6 relative button-div mt-auto mb-auto blue-back w-[14rem] h-[14rem] liquidBubbl--two overflow-hidden m-[ shadow-xl lg:w-[8rem] lg:h-[8rem]">
-                    <Image className="floating" src="/image/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
+                    <Image className="floating8" src="/image/emmanuelService.png" alt="emma"  height="300" width="300" priority/>
                 </div>
         
                 <div className="floating2 blue-back rounded-xl h-[23rem] w-[40rem] shadow-xl flex-col flex items-center mt-14 lg:w-[19rem] lg:h-[40rem]">

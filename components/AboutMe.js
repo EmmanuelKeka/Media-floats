@@ -6,7 +6,7 @@ export default function AboutMe(){
 
     return(
         <div className=" flex flex-col" id="aboutMe">
-            <div className=" w-[100%] h-[16rem] button-div relative overflow-hidden">
+            <div className=" w-[100%] h-[16rem] mb-[-3px] button-div relative overflow-hidden">
                 <div class="ocean">
                     <div class="wavevi"></div>
                 </div>
@@ -20,7 +20,7 @@ export default function AboutMe(){
 
 
                         <div className="pt-6 button-div relative bg-white w-[16rem] h-[16rem] liquidBubble overflow-hidden shadow-xl lg:w-[8rem] lg:h-[8rem]">
-                        <Image className="floating2 " src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
+                        <Image className="floating5" src="/image/emmalove.png" alt="emma"  height="300" width="300" priority/>
                         </div>
 
 
