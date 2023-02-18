@@ -1,28 +1,25 @@
 import React, { useState } from "react";
 export default function Profolio(){
-    const [size, setSize] = useState({ width: 0, height: 0 }); // initialize size to { width: 0, height: 0 }
+    const [size, setSize] = useState({ width: 0, height: 0 });
     const[displayDiv,setdisplayDiv] = useState( "none" )
+    const[displayDack,setdisplayDack] = useState( "none" )
     const delay = ms => new Promise(res => setTimeout(res, ms));
     const makebig = async () => {
+        setdisplayDack("inline")
         setdisplayDiv("flex")
         await delay(1);
         setSize({ width: 70, height: 70 });
 
       };
-    const kill = async () => {
-        setSize({ width: 0, height: 0 });
-        await delay(700);
-        setdisplayDiv("none")
-    
-
-    };
     const handleSizeChange = () => {
     
         makebig()
     };
 
     const closeWindow = () => {
-        kill()
+        setdisplayDack("none")
+        setdisplayDiv("none")
+        setSize({ width: 0, height: 0 });
     };
 
     return(
@@ -38,7 +35,7 @@ export default function Profolio(){
                 
                 <div className=" flex flex-row lm:flex-col flex-wrap justify-between  lm:items-center  w-[100%]">
                     <div className="">
-                        <div className="mt-5 web--suj relative button-div text-white bg-white liquidBubbl--tree shadow-xl overflow-hidden relative h-[15rem] w-[15rem]" onClick={handleSizeChange}>
+                        <div id="hh" className="mt-5 web--suj relative button-div text-white bg-white liquidBubbl--tree shadow-xl overflow-hidden relative h-[15rem] w-[15rem]" onClick={handleSizeChange}>
                             <img className="floating6" src="/image/stayfit.png" alt="music" height="180" width="180" priority/>
                         </div>
                         <p className="floating5 para--font text-white text-[170%] para--font--tittle">Stayfit</p>
@@ -50,8 +47,10 @@ export default function Profolio(){
                         </div>
                         <p className="floating5 para--font text-white text-[170%] para--font--tittle">burning sun</p>
                     </div>
-
-                    <div className="button-div overflow-hidden box liquidBubbl--tree p-5 flex-col items-center" style={{ width: `${size.width}%`, height: `${size.height}%`,display:`${displayDiv}`}} onClick={closeWindow}>
+                </div>
+                
+            </section>
+            <div className="button-div overflow-hidden box liquidBubbl--tree pl-10 pr-10 pt-10 flex-col items-center" style={{ width: `${size.width}%`, height: `${size.height}%`,display:`${displayDiv}`}} onClick={closeWindow}>
                     <h1 className="label-font tittle blue--text text-5xl mt-4 drop-shadow-lg shadow-black"> Profolio </h1>
                     <img className="" src="/image/stayfit.png" alt="music" height="50" width="50" priority/>
                         <p className="para--font text-lg text-center">
@@ -62,9 +61,9 @@ export default function Profolio(){
                         </p>
 
                     </div>
-                </div>
+            <div className="boxout w-[100%] h-[100%]"  style={{display:`${displayDack}`}}>
                 
-            </section>
+                 </div>
         </div>
     )
 }

@@ -415,14 +415,19 @@ a:hover .liquid {
 
 .box {
   position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     left: 15%;
     top: 15%;
-    width: 0%;
-    height: 0%;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(128, 219, 255, 0.9); /* Black w/ opacity */
+    background-color: #00AEEF;
   transition: width 1s ease, height 1s ease;
+}
+.boxout {
+  position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0%;
+    top: 0%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 
