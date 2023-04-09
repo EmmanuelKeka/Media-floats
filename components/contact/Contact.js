@@ -2,8 +2,8 @@ import Image from "next/image"
 export default function Contact(){
     return(
         
-            <section  className="allsection h-[50rem]  text-center flex flex-col items-center">
-                <div className="w-full h-full "  data-aos="zoom-out-down" data-aos-easing="linear" data-aos-duration="500">
+            <section  className="allsection h-[40rem]  text-center flex flex-row items-center justify-center">
+                <div className="w-full h-full "  data-aos="zoom-out-down" data-aos-easing="linear" data-aos-duration="1000">
                 <h1 className="text-5xl p-12 para--font">Contact</h1>
                 <form className="mb-8 max-w-4x w-full" >
                 <div className="flex flex-row justify-between mb-4 w-full lg:flex-col">
