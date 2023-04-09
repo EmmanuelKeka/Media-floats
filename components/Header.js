@@ -1,27 +1,18 @@
 import {Link} from "react-scroll"
 export default function Header(){
     return(
-        <header className="blue-back">
-            <h1 className="label-font text-3xl"> MEDIA FLOATS </h1>
+        <header className="bg-white">
+            <h1 className="label-font myBlackText label-font2 text-3xl"> MEDIA FLOATS </h1>
              <nav className="lg:hidden">
                 <ul>
-                    <li className="label-font text-center">
-                        <Link  to="aboutMe" spy={true} smooth={true} offset={200} duration={500}>
-                        <p className="LinkItem">About me</p>
-                        <div className="liquid"></div>
-                        </Link >
+                    <li className=" text-center">
+                        <a href="" className=" myBlackText">About me</a>
                     </li>
-                    <li className="label-font text-center">
-                        <Link to="services" spy={true} smooth={true} offset={200} duration={500}>
-                        <span className="LinkItem">Services</span>
-                        <div className="liquid"></div>
-                        </Link >
+                    <li className=" text-center">
+                        <a href="" className=" myBlackText">Services</a>
                     </li>
-                    <li className="label-font text-center">
-                        <Link  to="contact" spy={true} smooth={true} offset={200} duration={500}>
-                        <span className="LinkItem">Contact</span>
-                        <div className="liquid"></div>
-                        </Link >
+                    <li className="text-center">
+                        <a href=""className=" myBlackText">Contact</a>
                     </li>
                 </ul>
             </nav> 

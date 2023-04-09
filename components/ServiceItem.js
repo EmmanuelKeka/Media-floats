@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 export default function ServiceItem(props){
     let ssr = "../image/" + props.item.imageName
 
